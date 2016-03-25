@@ -50,7 +50,7 @@ class WwsRegistry(unittest.TestCase):
         driver.find_element_by_id("txt_password_r").send_keys("12345678")
         driver.find_element_by_id("txt_password_cp").send_keys("12345678")
         driver.find_element_by_css_selector(".orangeButtonSignInCA").click()
-        
+
        
 
     def is_element_present(self, how, what):
@@ -80,3 +80,7 @@ class WwsRegistry(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+
+'''hhasfhwearlhewlirfhwoi'''
